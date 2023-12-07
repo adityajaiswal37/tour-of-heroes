@@ -12,7 +12,9 @@ export class HeroListComponent {
 
   selectedHero?:Hero
   onSelect(hero:Hero):void{
+    console.log(hero)
     this.selectedHero = hero;
+
   }
 
 }

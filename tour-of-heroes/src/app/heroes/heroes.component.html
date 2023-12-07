@@ -1,5 +1,5 @@
-<main>
-    <div class="hero-card" *ngFor="let hero of heroes">
+<div>
+    <div class="hero-card" *ngIf="hero">
         <h1>{{hero.name}} Details</h1>
         <h2>Name: {{hero.name | uppercase}}</h2>
         <h2>Id: {{hero.id}}</h2>
@@ -9,5 +9,4 @@
             <input [(ngModel)]="hero.name" type="text" placeholder="Name">
         </div>
     </div>
-</main>
-
+</div>

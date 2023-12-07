@@ -12,7 +12,7 @@ import { HeroListComponent } from './hero-list/hero-list.component';
   declarations: [
     AppComponent,
     HeroesComponent,
-    HeroListComponent
+    HeroListComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,9 @@
 /* Application-wide Styles */
+*{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 h1 {
     color: #369;
     font-family: Arial, Helvetica, sans-serif;
